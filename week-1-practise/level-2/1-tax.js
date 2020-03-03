@@ -5,7 +5,10 @@
   Sales tax is 20% of the price of the product
 */
 
-function calculateSalesTax() {}
+function calculateSalesTax(price) {
+  var tax= price*2/10;
+  return tax;
+}
 
 /* DO NOT EDIT BELOW THIS LINE */
 /* --------------------------- */

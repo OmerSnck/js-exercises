@@ -9,9 +9,16 @@
 
   As a learning exercise (you wouldn't do this normally), do all of the above in 1 line of code 
 */
+function pipping(Value) {
+var Value= multiply(Value,2);
+var Value= add(Value,10);
+var Value= format(Value);
+return Value;
+}
+
 
 var startingValue = 5;
-
+var result=pipping(Value);
 /* DO NOT EDIT BELOW THIS LINE */
 /* --------------------------- */
 
